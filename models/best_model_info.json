@@ -1,0 +1,28 @@
+{
+  "best_model": "gradient_boosting",
+  "selection_metric": "F1-score (tie-breakers: ROC-AUC, accuracy)",
+  "features": [
+    "A1",
+    "A2",
+    "A3",
+    "A4",
+    "A5",
+    "A6",
+    "A7",
+    "A8",
+    "A9",
+    "A10",
+    "A11",
+    "A12",
+    "A13",
+    "A14"
+  ],
+  "target": "Class",
+  "class_labels": {
+    "0": "Class 0",
+    "1": "Class 1"
+  },
+  "test_size": 0.2,
+  "random_state": 42,
+  "dataset_rows": 690
+}
